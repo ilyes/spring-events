@@ -117,7 +117,7 @@ test {
 	exclude(["**/Abstract*.class", '**/*$*'])
 	reports {
         junitXml.enabled = true
-        html.enabled = false
+        html.enabled = true
     }     
 }
 
